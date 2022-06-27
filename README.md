@@ -1,8 +1,8 @@
-# DigitalCrafts - Web-FT-09-2021
+# DigitalCrafts - Web-FT-07-2022
 
 Welcome to DigitalCrafts!
 
-This is your field guide to your September, 2021 Immersive cohort, and should provide you with information you need about what to expect in class week to week.
+This is your field guide to your July, 2022 Immersive cohort, and should provide you with information you need about what to expect in class week to week.
 
 ## What we will use this for
 This repository is where we will upload code from the lesson (examples, assignments, etc) and track them after each lesson.  You can use this code as
@@ -18,12 +18,7 @@ a reference to help you with assignments, or to check on what homework is due.
 - [Anonymous Student Feedback Link](http://bit.ly/2019-student-feedback)
 - [The debug process](https://docs.google.com/document/d/1Hb3IZVcnrZQ6FXNgiqUBbqrEkRv-k1O_TFffqj3KoVs/edit)
 
-## Important Dates
 
-- **Cohort Start Date**: 9/7/2021
-- **Career Prep**:  11/10 - 11/12
-- **Holidays**: 11/25-11/27 (Thanksgiving Break), 12/24 - 1/1/22 (Winter Break)
-- **Demo-Day**: 1/05/22
 
 ## Lectures
 
