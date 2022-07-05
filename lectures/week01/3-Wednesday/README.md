@@ -15,7 +15,7 @@ After completing this lesson, you will be able to:
 
 
 ## ⭐️ Pre-Reading ⭐️
-- [Python 101](https://learn.digitalcrafts.com/immersive/lessons/solving-problems-using-code/intro-to-python/#learning-objectives)
+- [Python 101](https://digitalcrafts.instructure.com/courses/212/pages/reading-python-101?module_item_id=39076)
 
 <!-- ## 📍Agenda
 - Learn how to redirect input and output with bash
