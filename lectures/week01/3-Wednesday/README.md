@@ -17,35 +17,35 @@ After completing this lesson, you will be able to:
 ## ⭐️ Pre-Reading ⭐️
 - [Python 101](https://digitalcrafts.instructure.com/courses/212/pages/reading-python-101?module_item_id=39076)
 
-<!-- ## 📍Agenda
+## 📍Agenda
 - Learn how to redirect input and output with bash
 - Begin learning fundamental concepts of programming 
 - Discuss Control Structures
 - Discuss Nested Control Structures
-- The Debug Process -->
+- The Debug Process
 
-<!-- ## 🟡 Lecture Presentations
+## 🟡 Lecture Presentations
 - [Redirecting Input & Output](https://dc-houston.herokuapp.com/CommandLine/Redirecting.html#1)
 - [Python 101](https://dc-exxon-slides.netlify.app/python/python101#1)
 - [The debug process](https://docs.google.com/document/d/1Hb3IZVcnrZQ6FXNgiqUBbqrEkRv-k1O_TFffqj3KoVs/edit)
 
-<!-- ## 🟣Labs 
-- [advanced cli](https://github.com/veros-labs/cli-lab-advanced)
+## 🟣Labs 
+<!-- - [advanced cli](https://github.com/veros-labs/cli-lab-advanced) -->
 - [python101](https://github.com/veros-labs/lab-python-101)
--->
-
- <!-- ## 🔶 Practice Problems
- - [Problems for additional practice](https://github.com/veros-labs/practice-python-101) -->
 
 
-<!-- ## 🟠Homework 
+ ## 🔶 Practice Problems
+ - [Problems for additional practice](https://github.com/veros-labs/practice-python-101)
+
+
+## 🟠Homework 
 Medium problems in homework folder
 - [homework](./homework/)
--->
+
 
 ## 🔵 Helpful Videos
 
-- []()
+<!-- - []() -->
 
 ## 🔶Vocabulary
 
