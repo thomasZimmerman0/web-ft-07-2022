@@ -97,16 +97,25 @@
 # print(pos)
 
 
-name = input("What is your name>> ")
-age = input("What is your age>> ") # 2022- age
+# name = input("What is your name>> ")
+# age = input("What is your age>> ") # 2022- age
 
-age = int(age) #converts str to an int  --- casting
-print(name)
+# age = int(age) #converts str to an int  --- casting
+# print(name)
 
 
-print(type(name))
-print(type(age))
+# print(type(name))
+# print(type(age))
 
-birth_year = 2022 - age 
+# birth_year = 2022 - age 
 
-print(birth_year)
+# print(birth_year)
+
+# print(7 >= 9)
+
+a = not False 
+b  = True 
+
+c = a or b
+
+print(a)
