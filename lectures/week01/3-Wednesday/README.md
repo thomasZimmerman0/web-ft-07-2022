@@ -62,7 +62,7 @@ Medium problems in homework folder
 ## Resources 
 - [Variables, expressions and statements](https://greenteapress.com/thinkpython2/html/thinkpython2003.html)
 - [Strings](https://greenteapress.com/thinkpython2/html/thinkpython2009.html)
-- [Loops](https://greenteapress.com/thinkpython2/html/thinkpython2008.html) -->
+- [Loops](https://greenteapress.com/thinkpython2/html/thinkpython2008.html)
 
 
 
