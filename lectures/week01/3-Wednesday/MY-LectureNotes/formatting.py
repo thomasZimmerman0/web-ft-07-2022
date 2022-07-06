@@ -1,6 +1,8 @@
 
 # Create a variable called first_name and set the value to your first name
 
+first_name = "Veronica"
+
 # create a variable called last_name and set the value to your last name
 
 # print your first name console
@@ -16,7 +18,6 @@
 
 # Using the two variables you set earlier, generate a company email address that follows the pattern: "first name, period, last name @ company domain". Assign the result to a new variable called email and print the email to the console.
 # harry.potter@DigitalCrafts.com
-
 
 
 # Using the firstname and lastname variables, generate a username to a new variable and print it to the console. The username should follow this format: first name, underscore, lastname.
