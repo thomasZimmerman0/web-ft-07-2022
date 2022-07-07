@@ -23,20 +23,20 @@ After completing this lesson, you will be able to:
 - Discuss the need for nested loops and why we need them
 - Begin talk on Big O: Discuss the complexity of a nested loop
 
-<!-- ## 🟡 Lecture Presentations
-- [Sequences](https://dc-exxon-slides.netlify.app/python/conditionals#1) -->
+## 🟡 Lecture Presentations
+- [Sequences](https://dc-exxon-slides.netlify.app/python/conditionals#1)
 
-<!-- ## 🟣Labs 
+## 🟣Labs 
 **Instructions**
-- [sequences, iteration](https://github.com/veros-labs/lab-python-sequences) -->
+- [sequences, iteration](https://github.com/veros-labs/lab-python-sequences)
 
- <!-- ## 🔶 Practice Problems
- - [Problems for additional practice](https://github.com/veros-labs/practice-python-lists-loops) -->
+ ## 🔶 Practice Problems
+ - [Problems for additional practice](https://github.com/veros-labs/practice-python-lists-loops)
 
-<!-- ## 🟠Homework
+## 🟠Homework
 **Instructions**
 
-- [sequences and decision  making homework](./homework/) -->
+- [sequences and decision  making homework](./homework/)
 
 <!-- **Turning in Homework** -->
 ## 🔵Helpful Videos
