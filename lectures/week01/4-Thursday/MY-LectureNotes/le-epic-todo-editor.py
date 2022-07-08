@@ -61,14 +61,16 @@ while running:
         add_remove = input("Enter 'add' to add an item,'remove' to remove an item, and 'edit' to edit an item: ")
         if add_remove == "add":
             todos.append(input("What would you like to add?: "))
+            
         elif add_remove == "remove" :
             del todos[int(input("Enter the number of the note you'd like to remove: "))-1]
+            
         elif add_remove == "edit" :
-            swap = int(input("\nMove from where?(Enter number from list): "))
-            hold = todos[swap -1]
-            del todos[swap -1]
-            swap = int(input("Move to where?(Enter number from list): "))
-            todos.insert(swap -1, hold)
+            swap = int(input("\nMove from where?(Enter number from list): ")) -1
+            hold = todos[swap]
+            del todos[swap]
+            swap = int(input("Move to where?(Enter number from list): ")) -1
+            todos.insert(swap, hold)
         
 # list1 = [1, 2, 3, 4, 5,]
 # list2 = [6, 7, 8, 9, 10]
