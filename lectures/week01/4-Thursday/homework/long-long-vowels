@@ -1,0 +1,24 @@
+
+
+
+string = "Spoon"
+
+addem = False
+save_spot = 0
+save_vowel = ''
+
+toList = list(string)
+
+for i in range(len(toList)):
+    if toList[i] == toList[i-1] and (toList[i] =='A' or toList[i] =='a' or toList[i] =='E' or toList[i]  =='e' or toList[i] =='I' or toList[i] =='i' or toList[i] =='O' or toList[i] =='o' or toList[i] =='U' or toList[i] =='u'):
+        
+        addem = True
+        save_spot = i
+        save_vowel = toList[i]
+
+if addem:
+    toList.insert(save_spot, save_vowel * 3)
+
+string = ''.join(toList)
+
+print(string)
