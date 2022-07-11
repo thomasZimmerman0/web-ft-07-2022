@@ -1,0 +1,12 @@
+numbers = [10, 9, 8, 7, 6, 5, 4, 2, -1, 1]
+
+def smallest (nums):
+    hold = nums[0]
+    for i in nums:
+        if i < hold:
+            hold = i
+    return hold
+
+print(smallest(numbers))
+
+        

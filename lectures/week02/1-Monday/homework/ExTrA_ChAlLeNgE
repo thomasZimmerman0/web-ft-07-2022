@@ -1,0 +1,34 @@
+sample_board = [ [[ ], [ ], [ ],],
+                 [['Y'], [ ], [ ],],
+                 [['Y'], [ ], [ ],]] 
+
+sample_location = (2, 2)
+
+sample_player1 = 'X'
+sample_player2 = 'Y'
+
+
+def move (board, location, player):
+    if len(board) > 9:
+        print('The board is the wrong size, try again')
+        return
+    elif location[0] > 3 or location[1] > 3:
+        print('Your location is invalid, please try again')
+        return
+    elif player != "X" and player != "Y":
+        print('Invalid player format, please try again')
+        return
+    elif board[location[0]-1][location[1]-1] != '' :
+        print('Invalid placement, please try again')
+        return
+    
+    board[location[0]-1][location[1]-1].append(player)
+    return board.copy()
+
+sample_board = move(sample_board, sample_location, sample_player1)
+
+print(sample_board[0])
+print(sample_board[1])
+print(sample_board[2])
+    
+    
