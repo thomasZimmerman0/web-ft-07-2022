@@ -20,19 +20,17 @@ After completing this lesson, you will be able to:
 <!-- ## 📍Agenda
 -  -->
 
-<!-- ## 🟡 Lecture Presentations
-- [Functions](https://dc-houston.herokuapp.com/p2/Python/Functions.html#1) -->
+## 🟡 Lecture Presentations
+- [Functions](https://dc-houston.herokuapp.com/p2/Python/Functions.html#1)
 
-<!-- ## 🟣Labs
-[functions lab](https://github.com/veros-labs/lab-python-functions)  -->
+## 🟣Labs
+[functions lab](https://github.com/veros-labs/lab-python-functions) 
 
+ ## 🔶 Practice Problems
+ - [Problems for additional practice](https://github.com/veros-labs/practice-python-functions)
 
- <!-- ## 🔶 Practice Problems
- - [Problems for additional practice](https://github.com/veros-labs/practice-python-functions) -->
-
-<!-- ## 🟠Homework  
-- [assignment](./homework/) -->
-
+## 🟠Homework  
+- [assignment](./homework/)
 
 ## 🔵Helpful Videos
 - [Python Functions](https://www.youtube.com/watch?v=9Os0o3wzS_I)
