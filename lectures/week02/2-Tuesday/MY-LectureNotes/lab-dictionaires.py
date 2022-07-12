@@ -19,9 +19,26 @@
 
 zodiac = {
     
+    'Aries' : 'The Warrior',
+    'Taurus' : 'The Builder',
+    'Gemini' : 'The Messenger',
+    'Cancer' : 'The Mother',
+    'Leo' : 'The King',
+    'Virgo' :'The Analyst',
+    'Libra' : 'The Judge',
+    'Scorpio' : 'The Magician',
+    'Sagittarius' :' the Gypsy',
+    'Capricorn' : 'the Father',
+    'Aquarius' : 'The Thinker',
+    'Pisces' :'TheMystic',
+    
 }
 
 #? 1a. Retrieve information about your zodiac from the zodiac dictionary
+
+myZodiak = zodiac["Cancer"]
+
+print(myZodiak)
 
 #? 2. Given the following dictionary
 
@@ -38,6 +55,13 @@ phonebook_dict = {
 # 2d. Change Bob's phone number to '968-345-2345'.
 # 2e. Print all the phone entries.
 
+print(phonebook_dict['Elizabeth'])
+phonebook_dict['Kareem'] = '938-489-1234'
+del phonebook_dict['Alice']
+phonebook_dict['Bob'] = '968-345-2345'
+
+for key in phonebook_dict:
+    print(f"{key} : {phonebook_dict[key]}")
 
 #? 3. Nested dictionaries
 

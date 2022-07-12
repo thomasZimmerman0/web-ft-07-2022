@@ -16,3 +16,22 @@ contacts = {
     True: False,
     "myList" : [0, 2, 4]
 }
+contacts["state"] = 'Arizona'
+contacts['firstName'] = 'Tommy'
+
+result = 'state' in contacts
+
+if 'firstName' in contacts:
+    print(contacts["firstName"])
+    
+keys = contacts.keys()
+
+print(keys)
+
+for key in contacts.keys():
+    print(f"{key} : {contacts[key]}")
+    
+del contacts["phone"]
+
+print(contacts)
+
