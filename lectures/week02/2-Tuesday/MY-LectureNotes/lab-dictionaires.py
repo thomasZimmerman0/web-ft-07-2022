@@ -83,9 +83,14 @@ ramit = {
     ]
 }
 # 3a. Write a python expression that gets the email address of Ramit.
+print(ramit)
+print(ramit['email'])
 # 3b. Write a python expression that gets the first of Ramit's interests.
+print(ramit['interests'][0])
 # 3c. Write a python expression that gets the email address of Jasmine.
+print(ramit['friends'][0]['email'])
 # 3d. Write a python expression that gets the second of Jan's two interests.
+print(ramit['friends'][1]['interests'][1])
 
 
 #? 4. Letter Summary
