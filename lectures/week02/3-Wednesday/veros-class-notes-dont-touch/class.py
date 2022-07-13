@@ -192,24 +192,79 @@
 
 # print(name.upper())
 
-class VeroString(str): 
+# class VeroString(str): 
     
-    def __init__(self, word): 
-        self.word = word # hello 
+#     def __init__(self, word): 
+#         self.word = word # hello 
         
         
-    def reverse(self): 
-        revString = ""
-        for char in self.word: 
-            revString = char + revString 
+#     def reverse(self): 
+#         revString = ""
+#         for char in self.word: 
+#             revString = char + revString 
         
-        return revString
+#         return revString
     
 
-someString = VeroString('hello')
+# someString = VeroString('hello')
 
-print(someString.upper())
-print(someString.reverse().upper())
+# print(someString.upper())
+# print(someString.reverse().upper())
 
 
+
+class Car: 
+    def __init__(self, make, model, color): 
+        self.make = make 
+        self.model = model 
+        self.color = color 
+    
+    def carDetails(self): 
+        print(f"Here are the details of this car {self.make} {self.model} {self.color}")
+
+class Hybrid(Car): 
+    def __init__(self, make, model, color, year):
+        self.year = year
+        print("i'm in the hybrid consturctor")
+        super(Hybrid, self).__init__(make, model, color)
+    
+    def carType(self): 
+        print(f"I am a hybrid car {self.make} {self.model} {self.color}")
+
+class Electric(Car): 
+    def carType(self): 
+        print(f"I am an electric car {self.make} {self.model} {self.color}")
+
+prius = Hybrid("toyota", "prius", "lime green", "1999")
+
+prius.carDetails()
+# prius.carType()
+
+tesla = Electric("tesla", "model-s", "purple") 
+tesla.carDetails()
+# tesla.carType()
+
+
+# class Parent(): 
+    
+#     def implicit(self):
+#         print("implict")
+    
+#     def override(self):
+#         print('Parent Override') 
+
+# class Child(Parent): 
+    
+#     def override(self): 
+#         print("Child Override")
+#         super(Child, self).override()
+    
+
+
+# willSmith = Parent() 
+# willSmith.implicit()
+
+# jadenSmith = Child()
+# jadenSmith.implicit()
+# jadenSmith.override()
 
