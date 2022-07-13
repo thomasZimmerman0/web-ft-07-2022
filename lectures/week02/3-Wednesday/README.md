@@ -17,11 +17,13 @@ After completing this lesson, you will be able to:
 ## 📍Agenda
 
 
-<!-- ## 🟡 Lecture Presentations
+## 🟡 Lecture Presentations
 - [Objects Oriented Programming](https://dc-exxon-slides.netlify.app/python/objects102#1)
-- [Error & Debugging](https://dc-houston.herokuapp.com/p2/Python/Debugging.html) -->
+- [Error & Debugging](https://dc-houston.herokuapp.com/p2/Python/Debugging.html)
 
-<!-- ## 🟣Labs  -->
+## 🟣Labs 
+
+[labs](https://github.com/veros-labs/lab-python-oop)
 
 <!-- ## 🟠Homework
  
