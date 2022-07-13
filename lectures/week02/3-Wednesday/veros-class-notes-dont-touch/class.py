@@ -213,37 +213,36 @@
 
 
 
-class Car: 
-    def __init__(self, make, model, color): 
-        self.make = make 
-        self.model = model 
-        self.color = color 
+# class Car: 
+#     def __init__(self, make, model, color): 
+#         self.make = make 
+#         self.model = model 
+#         self.color = color 
     
-    def carDetails(self): 
-        print(f"Here are the details of this car {self.make} {self.model} {self.color}")
+#     def carDetails(self): 
+#         print(f"Here are the details of this car {self.make} {self.model} {self.color}")
 
-class Hybrid(Car): 
-    def __init__(self, make, model, color, year):
-        self.year = year
-        print("i'm in the hybrid consturctor")
-        super(Hybrid, self).__init__(make, model, color)
+# class Hybrid(Car): 
+#     def __init__(self, make, model, color, year):
+#         self.year = year
+#         print("i'm in the hybrid consturctor")
+#         super(Hybrid, self).__init__(make, model, color)
     
-    def carType(self): 
-        print(f"I am a hybrid car {self.make} {self.model} {self.color}")
+#     def carType(self): 
+#         print(f"I am a hybrid car {self.make} {self.model} {self.color}")
 
-class Electric(Car): 
-    def carType(self): 
-        print(f"I am an electric car {self.make} {self.model} {self.color}")
+# class Electric(Car): 
+#     def carType(self): 
+#         print(f"I am an electric car {self.make} {self.model} {self.color}")
 
-prius = Hybrid("toyota", "prius", "lime green", "1999")
+# prius = Hybrid("toyota", "prius", "lime green", "1999")
 
-prius.carDetails()
-# prius.carType()
+# prius.carDetails()
+# # prius.carType()
 
-tesla = Electric("tesla", "model-s", "purple") 
-tesla.carDetails()
+# tesla = Electric("tesla", "model-s", "purple") 
+# tesla.carDetails()
 # tesla.carType()
-
 
 # class Parent(): 
     
@@ -268,3 +267,77 @@ tesla.carDetails()
 # jadenSmith.implicit()
 # jadenSmith.override()
 
+# first_name 
+
+
+class Campus: 
+    def __init__(self): 
+        self.students = [] #hold all of or student instances  [obj, obj, obj, ]
+        #                                                                 |    
+    
+    def addStudent(self, name, city):
+        # create an instance of student
+        studentObj = Student(name, city)
+        
+        # add student instnance to self.students
+        self.students.append(studentObj) 
+        
+    def printStudentNames(self): 
+        for student in self.students: 
+            print(student.firstName)
+    
+    def numOfStudents(self):
+        return len(self.students)
+        
+        
+class Student: 
+    def __init__(self, firstName, campus): 
+        self.firstName = firstName 
+        self.campus = campus 
+        
+        
+    def printStudent(self):
+        print(f'{self.firstName} {self.campus}')
+        
+        
+
+dc = Campus()
+
+dc.addStudent('Tommy', "New Jersey")
+dc.addStudent('Ryan', 'Kawlona') 
+dc.addStudent('Shannon', "Phoenix")
+dc.addStudent('Austin', "Bay") 
+dc.addStudent('Joy', "Houston")
+dc.addStudent('Dan', "Chicago")
+dc.addStudent('Peyton', "Houston")
+dc.addStudent('Yvonne', "New Braunfels")
+
+# print(dc.students)
+
+dc.printStudentNames()
+print(dc.numOfStudents())
+
+
+
+# student1 = Student('Dane', "Tampa")
+# student2 = Student('Veronica', 'Orlando')
+# student3 = Student('Tri', "Philly")
+# student4 = Student('Felipe', "Houston")
+# student5 = Student('Gary', "Atlanta")
+
+
+# Bank (class)
+    # properties
+        # name 
+        # address 
+        # list all of account holders
+    #methods
+        # add an account holder to the account_holders list
+        # searchBy Name
+        # total bank balance 
+        # see all of our members 
+        # hightest account holder 
+        
+# Account
+    # name 
+    # balance
