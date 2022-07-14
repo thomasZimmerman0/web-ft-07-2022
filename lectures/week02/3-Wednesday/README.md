@@ -35,7 +35,6 @@ After completing this lesson, you will be able to:
     - git clone https://github.com/vlino2015/rpg_game.git -->
 
 
-
 ## 🔵Helpful Videos
 - [Python Object Oriented Programming (OOP) - For Beginners](https://www.youtube.com/watch?v=JeznW_7DlB0)
 - [OOP in Python | Object Oriented Programming](https://www.youtube.com/watch?v=qiSCMNBIP2g)
