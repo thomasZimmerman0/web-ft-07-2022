@@ -8,34 +8,42 @@ class Bank:
         self.address = address
         self.accounts = []
         
+    #Allows hard coding accounts into Bank's accounts
     def add_account(self, name, balance):
         account = Account(name, balance)
         self.accounts.append(account)
     
+    #Allows user to add accounts while programming is running through input
     def add_account_improved(self):
         name = input('What is the name you\'ll be adding to the acccount?')
-        balance = int(input('How much is being deposited?'))
+        balance = float(input('How much is being deposited?'))
         account = Account(name, balance)
         self.accounts.append(account)
-        
+    
+    #Matches name input to with each element in list of accounts    
     def search_name(self):
         name = input("Who is the person you are trying to lookup?")
         for i in self.accounts:
             if i.name == name:
                 print(f'Name: {i.name} \nBalance : {i.balance}')
     
+    #Prints the sum of all accounts' balance
     def total_bank_balance(self):
         total = 0
         for i in self.accounts:
             total += i.balance
         print(total)
     
+    #Prints each account name in account list, preceeded by a number
     def list_members(self):
         count = 1
         for i in self.accounts:
             print(f'{count}.{i.name}')
             count += 1
-            
+    
+    #Compares each account to each other to find the highest holder 
+    #(Does not account for 2 highest accounts with equal value)
+
     def highest_account(self):
         highest_balance = self.accounts[0].balance
         highest_account = ''
@@ -48,12 +56,12 @@ class Bank:
     #Sets 'selected account' variable to an interger that can be reffered back to for transactions
     def select_account(self): 
         self.list_members()
-        self.selected_account = int(input('Which account holder would you like to transact from? ')) -1 
+        self.selected_account = float(input('Which account holder would you like to transact from? ')) -1 
         print(f'You have selected {self.accounts[self.selected_account].name}')
     
-    def withdrawl(self):
+    def withdrawal(self):
         self.select_account()
-        amount = int(input('How much would you like to withdrawl?'))
+        amount = float(input('How much would you like to withdrawal? >>'))
         self.accounts[self.selected_account].balance -= amount
         print(f'''
 ${amount} was withdrawn from {self.accounts[self.selected_account].name}\'s account.
@@ -61,7 +69,7 @@ new balance: {self.accounts[self.selected_account].balance}''')
         
     def deposit(self):
         self.select_account()
-        amount = int(input('How much would you like to deposit?'))
+        amount = float(input('How much would you like to deposit? >>'))
         self.accounts[self.selected_account].balance += amount
         print(f'''
 ${amount} was deposited to {self.accounts[self.selected_account].name}\'s account.
@@ -93,7 +101,7 @@ Welcome to Banker Sim
 7. Deposit
 8. Exit''')
 
-    option = int(input("Please choose one of the above options (enter 1-8) >>"))
+    option = int(input("Please choose one of the above options (enter 1-8) >> "))
     
     if option == 1:
         TDBank.add_account_improved()
@@ -106,9 +114,11 @@ Welcome to Banker Sim
     elif option == 5:
         TDBank.highest_account()
     elif option == 6:
-        TDBank.withdrawl()
+        TDBank.withdrawal()
     elif option == 7:
         TDBank.deposit()
     elif option == 8:
         break
+    else:
+        pass
 print('Goodbye')

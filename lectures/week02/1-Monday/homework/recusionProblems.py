@@ -54,18 +54,21 @@ print(recursiveRange(5))
 # 4. Write a recursive function called reverse which accepts
 # a string and returns a new string in reverse
 
+#hello => olleh
+#       |
 def reverse(string):
+    
+    #base
     if len(string) == 0:
-        return
-     
-    temp = string[0]
-    reverse(string[1:])
+        return ''
+    
+    return reverse(string[1:]) + string[0]
+
+print(reverse('hello'))
+    
+    
 
  
-# Driver program to test above function
-string = "Geeks for Geeks"
-reverse(string)
-
 # 5. Write a recursive function called isPalindrome which returns
 # true if the string passed to it is a palindrome (reads the same forward and backward).
 # Otherwise returns false.
@@ -78,6 +81,22 @@ reverse(string)
 # isPalindrome('amanaplanacanalpanama') // true
 # isPalindrome('amanaplanacanalpandemonium') // false
 
+def isPalindrome(word):
+    
+    #base
+    if(len(word) == 1 ):
+        return True
+    if(len(word) ==2):
+        return word[0] == word[1]
+    #recurse
+    if word[0] == word[-1]:
+        new_word = word[1:-1]
+        
+        return isPalindrome(word[1:-1])
+  
+    return False
+
+print(isPalindrome('tacocat'))
 
 # 6. Write  function called product ofArray which takes in
 # an array of numbers and returns the product of them all
