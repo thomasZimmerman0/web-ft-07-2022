@@ -21,18 +21,21 @@ After completing this lesson, you will be able to:
 
 ## 📍Agenda
 
-<!-- ## 🟡 Lecture Presentations
-- [HTML](https://dc-houston.herokuapp.com/p2/HTMLCSS/HTML.html#1)
+## 🟡 Lecture Presentations
+- [HTML](https://dc-houston.herokuapp.com/HTMLCSS/HTML.html#1)
+- [CSS](https://dc-houston.herokuapp.com/HTMLCSS/CSS.html#1)
+<!-- - [CSS Measurement Units](https://app.schoology.com/page/1643095901) -->
+<!-- - [HTML](https://dc-houston.herokuapp.com/p2/HTMLCSS/HTML.html#1)
 - [CSS](https://dc-houston.herokuapp.com/p2/HTMLCSS/CSS.html#1)
 - [CSS Measurement Units](https://app.schoology.com/page/1643095901) -->
 
 <!-- ## 🟣Labs  -->
 
-<!-- ## 🟠Homework
+## 🟠Homework
 
 - [HTML 101](https://digitalcrafts.instructure.com/courses/189/pages/html-101?module_item_id=23115)
-- [Create 90s Style Website](https://digitalcrafts.instructure.com/courses/189/assignments/4601?module_item_id=23134) -->
-<!-- [HTML CSS 101](./homework) -->
+- [Create 90s Style Website](https://digitalcrafts.instructure.com/courses/189/assignments/4601?module_item_id=23134)
+[HTML CSS 101](./homework)
 
 ## 🔵Helpful Videos
 - [Learn HTML5 and CSS3 From Scratch - Full Course](https://www.youtube.com/watch?v=mU6anWqZJcc)
