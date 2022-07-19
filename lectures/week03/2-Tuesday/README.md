@@ -17,16 +17,18 @@ After completing this lesson, you will be able to:
 
 <!-- ## 📍Agenda -->
 
-<!-- ## 🟡 Lecture Presentations
+## 🟡 Lecture Presentations
 - [Box Model, Display, Centering](https://dc-houston.herokuapp.com/p2/HTMLCSS/BoxModel.html#1)
-- [Positioning](https://dc-houston.herokuapp.com/p2/HTMLCSS/Positioning.html#1) -->
+- [Positioning](https://dc-houston.herokuapp.com/p2/HTMLCSS/Positioning.html#1)
 <!-- - [Floats](https://dc-houston.herokuapp.com/p2/HTMLCSS/Floats.html#1) -->
 
-<!-- ## 🟣Labs  -->
+## 🟣Labs 
 
-<!-- ## 🟠Homework 
+[lab](https://github.com/veros-labs/lab-css-box-model)
 
-[homework assignment](./homework/) -->
+## 🟠Homework 
+
+[homework assignment](./homework/)
 
 ## 🔵Helpful Videos
 - [CSS Box Model](https://www.youtube.com/watch?v=M6coJNLFBWI)
