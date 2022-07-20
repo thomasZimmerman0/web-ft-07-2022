@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .cont1{
+            background-color: yellow;
+            height: 20vh;
+            text-align: center;
+            line-height: 20vh;
+
+        }
+
+        .cont2{
+            display: inline-block;
+            background-color: teal;
+            position: fixed;
+            left: 0px;
+            width: 20vw;
+            height: 100%;
+            margin: 0px;
+            
+        }
+
+        .cont3{
+            background-color: red;
+            text-align: center;
+            height: 60vh;
+            margin: 0px;
+        }
+        .main{
+            display:inline-block;
+            position: fixed;
+            background-color: blue;
+            right: 0px;
+            width: 80%;
+            height: 100%;
+            margin: 0px;
+            line-height: 100%;
+        }
+        .cont4{
+            background-color: purple;
+            position: absolute;
+            text-align: center;
+            line-height: 20vh;
+            height: 20vh;
+            width: 100%;
+
+        }
+
+        body{
+            margin: 0px;
+        }
+        div{
+            margin: 0px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "cont1">
+        I'm a header!
+    </div>
+    <div class = "cont3"> 
+        <div class = "cont2">
+            I'm a sidebar!
+        </div>
+        <div class = "main">
+            I'm the mainbar!
+        </div>
+    </div>
+    <div class = "cont4">
+        I'm the footer!
+    </div>
+    
+    
+</body>
+</html>
