@@ -28,7 +28,7 @@ After completing this lesson, you will be able to:
 <!-- ## 🔵Helpful Videos -->
 
 <!-- ## ✔️Todo Checklist -->
-- [ ]
+
 
 <!-- ## 🔶Vocabulary -->
 
