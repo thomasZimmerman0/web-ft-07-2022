@@ -28,9 +28,12 @@ html = """
 </head>
 <body>
 """
-
-#? Write code here
-
+hex = ''
+for i in color_data:
+    for j in i:
+       if j == "hex_value":
+           html+=f'<div style ="background-color :{i[j]} "></div>\n'
+(i[j])
 html += """
 
 </body>
