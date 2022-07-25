@@ -21,18 +21,24 @@ html = """
             margin:0px;
         }
         div{
+            display: flex;
             height: 50px;
+            font-size: 50px;
         }
     </style>
 </head>
 <body>
 """
 
-#? Write code here
-
+for i in companies:
+    html += "<div> " + i["business_name"] + "</div>\n"
+    html += "<div> <img src=\"" + i["logo"] + "\">\n"
+ 
 html += """
 
 </body>
+
+
 </html>
 
 """
