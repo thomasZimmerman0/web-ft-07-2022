@@ -18,16 +18,16 @@ After completing this lesson, you will be able to:
 
 <!-- ## 📍Agenda -->
 
-<!-- ## 🟡 Lecture Presentations
-- [Javascript 101](http://dc-houston.herokuapp.com/p2/Javascript/Javascript101.html#1) -->
+## 🟡 Lecture Presentations
+- [Javascript 101](http://dc-houston.herokuapp.com/p2/Javascript/Javascript101.html#1)
 
-<!-- ## 🟣Labs 
-- [js 101 lab](https://github.com/veros-labs/lab-js-101)
-- [JS lab](https://github.com/DigitalCraftsStudents/js-101-exercises) -->
+## 🟣Labs 
+<!-- - [js 101 lab](https://github.com/veros-labs/lab-js-101) -->
+- [JS lab](https://github.com/DigitalCraftsStudents/js-101-exercises)
 
-<!-- ## 🟠Homework 
+## 🟠Homework 
 - [JS Exercises](https://digitalcrafts.instructure.com/courses/189/assignments/4637?module_item_id=23210)
-- [JS 101](https://digitalcrafts.instructure.com/courses/189/pages/javascript-101?module_item_id=23207) -->
+- [JS 101](https://digitalcrafts.instructure.com/courses/189/pages/javascript-101?module_item_id=23207)
 
 ## 🔵Helpful Videos
 - [JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour](https://www.youtube.com/watch?v=W6NZfCO5SIk)
