@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+
+   </head>
+<body>
+    <script>
+
+        var lorem = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nesciunt, similique animi quo neque adipisci. Obcaecati fugiat provident rem quod incidunt! Quaerat, assumenda. Sunt repudiandae, autem odio non repellendus sapiente!';
+
+        var style = document.createElement("style")
+        
+        document.head.appendChild(style)
+
+        var styles = `
+        .header{
+            margin: 2%;
+            padding: 1%;
+            background-color: rgb(78, 135, 241);
+        }
+
+        .MainFont{
+            font-weight: bold;
+            color:white;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: xxx-large
+            
+        }
+        .MainFont2{
+            font-weight: bold;
+            color:rgb(48, 45, 45);
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: xxx-large
+            
+        }
+        .secFont{
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: xx-large
+        }
+
+        .mainContainer{
+            margin: 2%;
+            height:100%;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .secondHeader{
+            padding: 2%;
+            background-color: rgb(137, 133, 133)
+        }
+
+        .articleTitle{
+            font-size: x-large;
+            color: rgb(63, 151, 206)
+        }
+
+        .subText{
+            background-color: orange;
+            font-weight: bold;
+            color: white;
+        }
+        .subText2{
+            background-color: orange;
+            font-weight: bold;
+            color: white;
+        }
+        .subText3{
+            background-color: orange;
+            font-weight: bold;
+            color: white;
+        }
+        `
+
+        style.innerHTML = styles
+
+        function makeDiv(classes, content, location)
+        {
+            var loc = document.querySelector(location)
+            var div = document.createElement("div")
+
+            div.setAttribute('class', classes);
+
+            div.textContent = content;
+
+            loc.appendChild(div)
+        }
+
+        makeDiv('header d-flex align-items-center', '', 'body')
+        makeDiv('d-flex MainFont col-4', 'High on Coding', '.header')
+        makeDiv('secFont justify-content-center col-1', 'Home', '.header' )
+        makeDiv('secFont justify-content-center col-1', 'Categories', '.header' )
+        makeDiv('mainContainer', '', 'body')
+        makeDiv('MainFont2 secondHeader', 'Curse of the current reviews', '.mainContainer')
+        makeDiv('secondHeader', lorem, '.mainContainer')
+        makeDiv('articleTitle pt-4', 'Hello Watchkit', '.mainContainer')
+        makeDiv('',lorem,'.mainContainer')
+        makeDiv('subText d-flex', '', '.mainContainer')
+        makeDiv('col-2', '12 Comments', '.subText')
+        makeDiv('col-2', '120', '.subText')
+        makeDiv('articleTitle pt-4', 'Hello Watchkit', '.mainContainer')
+        makeDiv('',lorem,'.mainContainer')
+        makeDiv('subText2 d-flex', '', '.mainContainer')
+        makeDiv('col-2', '12 Comments', '.subText2')
+        makeDiv('col-2', '120', '.subText2')
+        makeDiv('articleTitle pt-4', 'Hello Watchkit', '.mainContainer')
+        makeDiv('',lorem,'.mainContainer')
+        makeDiv('subText3 d-flex', '', '.mainContainer')
+        makeDiv('col-2', '12 Comments', '.subText3')
+        makeDiv('col-2', '120', '.subText3')
+       
+
+
+
+
+
+
+    </script>    
+</body>
+</html>
