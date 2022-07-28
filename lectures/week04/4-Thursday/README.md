@@ -19,7 +19,7 @@ After completing this lesson, you will be able to:
 - [Event Handling](https://dc-houston.herokuapp.com/p2/Javascript/EventHandling.html#1)
 
 ## 🟣Labs
-[small and medium exercises](https://learn.digitalcrafts.com/immersive/lessons/handling-user-input/handling-browser-events/exercises/#setup) 
+[small and medium exercises](https://github.com/veros-labs/lab-js-event-listening.git) 
 
 <!-- ## 🟠Homework  -->
 
