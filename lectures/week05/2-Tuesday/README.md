@@ -1,4 +1,4 @@
-# Week 5 - Monday
+# Week 5 - Tuesday
 
 ## ES6 Syntax
 
@@ -12,8 +12,7 @@ After completing this lesson, you will be able to:
 - [ ] Rest Parameter
 - [ ] Prototype
 - [ ] Constructor Function
-- [ ] 
-- [ ] 
+
 
 ## ⭐️ Pre-Reading ⭐️
 - [ES6](https://digitalcrafts.instructure.com/courses/212/pages/lesson-js-es6?module_item_id=39319)
