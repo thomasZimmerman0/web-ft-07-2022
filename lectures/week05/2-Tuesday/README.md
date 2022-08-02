@@ -19,6 +19,15 @@ After completing this lesson, you will be able to:
 
 ## 📍Agenda
 
+
+🟡 Code Review
+
+- [code review 1](https://github.com/veros-labs/js-blackjack-codereview1)
+- [code review 2](https://github.com/veros-labs/js-blackjack-codereview2)
+- [code review 3](https://github.com/veros-labs/js-blackjack-codereview3)
+
+
+
 <!-- ## 🟡 Lecture Presentations
 - [ES6](https://dc-houston.herokuapp.com/p2/Javascript/ES6.html#1) -->
 
