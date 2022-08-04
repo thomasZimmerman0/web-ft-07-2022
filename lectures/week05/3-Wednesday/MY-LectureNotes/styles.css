@@ -1,0 +1,36 @@
+body{
+
+    background-image: url('http://images6.fanpop.com/image/photos/35700000/Dark-Blue-Cloudy-Sky-random-35707081-1920-1080.jpg');
+}
+h1{
+
+    font-family: 'Russo One';
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 2px 1px #000000;
+}
+h2{
+
+    font-family: 'Pathway Gothic One';
+    color: white;
+    text-shadow: 3px 2px 1px #000000;
+}
+
+.container{
+
+    height:100vh;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mainBox{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+

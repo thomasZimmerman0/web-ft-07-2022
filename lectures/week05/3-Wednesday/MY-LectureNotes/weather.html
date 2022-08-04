@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="mainBox">
+            <h1> Welcome to Weather!</h1>
+            <h2> Enter the name of the city you are trying to find the temp for</h2>
+            <div id="data"></div>
+            <div><div class="input-box"></div><input type="text"><button id="enter">enter</button></div></div>
+        </div>
+    </div>
+    
+    
+    <script>
+        
+        let input = document.querySelector('input')
+        let button = document.querySelector('button')
+        let div = document.querySelector('#data')
+        
+        let URLstring = ''
+        let city = ''
+        var cityPlainText = ''
+        
+        button.addEventListener('click', e=>{
+
+            
+            if( e.target.id == 'enter'){
+                
+                city = input.value
+
+                city.replace(" ", "%20")
+
+                URLstring = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=58ea20be427dc3d58dd2fd71215c8332`
+            }
+            
+            fetch(URLstring)
+            .then(result=>result.json())
+            .then(data=>{
+                
+                console.log(data.main.temp);
+                
+                let kelvin = data.main.temp
+                
+                let degC = kelvin -273.15;
+                
+                let degF = Math.floor((degC * 1.8) + 32)
+                
+                
+                console.log(degF);
+                
+                
+                div.innerHTML = `<h1>The Current temperature in ${city}: ${degF}°`
+                    
+                    
+                    
+                    
+                })
+            })
+            </script>
+                </body>
+                </html>
