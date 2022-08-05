@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card1{
+    border: 5px solid rgb(0, 0, 0);
+    height: 200px;
+    text-align: center;
+    margin: 50px;
+}
+
