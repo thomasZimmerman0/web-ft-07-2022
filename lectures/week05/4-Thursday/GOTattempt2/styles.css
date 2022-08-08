@@ -1,0 +1,193 @@
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.card1{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    height: 175px;
+    text-align: center;
+    margin: 50px;
+    cursor: pointer;
+    background-image: linear-gradient(
+  180deg,
+  hsl(0deg 100% 44%) 0%,
+  hsl(11deg 100% 44%) 11%,
+  hsl(16deg 100% 45%) 23%,
+  hsl(20deg 100% 45%) 34%,
+  hsl(24deg 100% 46%) 44%,
+  hsl(27deg 100% 46%) 52%,
+  hsl(30deg 100% 46%) 59%,
+  hsl(32deg 100% 47%) 66%,
+  hsl(35deg 100% 47%) 71%,
+  hsl(38deg 100% 47%) 76%,
+  hsl(40deg 94% 49%) 80%,
+  hsl(41deg 90% 52%) 83%,
+  hsl(39deg 92% 59%) 86%,
+  hsl(38deg 94% 64%) 88%,
+  hsl(37deg 97% 69%) 90%,
+  hsl(36deg 100% 73%) 92%,
+  hsl(36deg 100% 77%) 94%,
+  hsl(36deg 100% 81%) 95%,
+  hsl(36deg 100% 85%) 97%,
+  hsl(36deg 100% 89%) 98%,
+  hsl(36deg 100% 92%) 99%,
+  hsl(36deg 100% 96%) 99%,
+  hsl(0deg 0% 100%) 100%
+);
+
+}
+
+.title{
+    
+    display: flex;
+    justify-content: center;
+    background-image: url("https://cdn.wallpapersafari.com/5/64/bUKrna.jpeg");
+}
+h1{
+    font-size: x-large;
+    text-decoration: underline;
+    font-family: 'Copperplate Gothic Light';
+    font-weight: bolder;
+    color:rgb(255, 255, 255);
+    text-shadow: rgba(255,98,0,1) 1px 1px 10px;
+}
+
+.name{
+    font-size: x-large;
+    text-decoration: underline;
+    font-family: 'Copperplate Gothic Light';
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px #ffffff;
+    box-sizing: border-box;
+}
+
+.allyTag{
+    font-family:'Lucidatypewriter';
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px #000000;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-image: url(photos/blackMetalBest.jpg)
+}
+
+li{
+    list-style-type: none;
+    font-family:'Lucidatypewriter';
+    font-size: large;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px #000000;
+    box-sizing: border-box;
+}
+
+.spinner{
+    position: absolute;
+}
+
+.bg-modal {
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none; 
+}
+
+.modal-c{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(58, 5, 5);
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0px 0px 60px 20px rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+    text-align: center;
+    flex-direction: column;
+    padding: 2%;
+    
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    color: white;
+}
+
+.popupName{
+    font-size: xx-large;
+    text-decoration: underline;
+    font-family: 'Copperplate Gothic Light';
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px #ffffff;
+    box-sizing: border-box;
+    padding-bottom: 20%;
+}
+
+.popupInfo{
+    list-style-type: none;
+    font-family:'Lucidatypewriter';
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #000000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.butt{
+    background-image: linear-gradient(
+        180deg,
+        hsl(0deg 100% 44%) 0%,
+        hsl(11deg 100% 44%) 11%,
+        hsl(16deg 100% 45%) 23%,
+        hsl(20deg 100% 45%) 34%,
+        hsl(24deg 100% 46%) 44%,
+        hsl(27deg 100% 46%) 52%,
+        hsl(30deg 100% 46%) 59%,
+        hsl(32deg 100% 47%) 66%,
+        hsl(35deg 100% 47%) 71%,
+        hsl(38deg 100% 47%) 76%,
+        hsl(40deg 94% 49%) 80%,
+        hsl(41deg 90% 52%) 83%,
+        hsl(39deg 92% 59%) 86%,
+        hsl(38deg 94% 64%) 88%,
+        hsl(37deg 97% 69%) 90%,
+        hsl(36deg 100% 73%) 92%,
+        hsl(36deg 100% 77%) 94%,
+        hsl(36deg 100% 81%) 95%,
+        hsl(36deg 100% 85%) 97%,
+        hsl(36deg 100% 89%) 98%,
+        hsl(36deg 100% 92%) 99%,
+        hsl(36deg 100% 96%) 99%,
+        hsl(0deg 0% 100%) 100%
+      );
+    color: black;
+    border-radius: 30px;
+}
+
+.searchBar{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 5px solid black;
+}
